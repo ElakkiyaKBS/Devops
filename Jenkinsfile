@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("checkout"){
             steps{
-                echo "am checkingout"
+                echo "am checkingout Devops folder"
             }
         }
         stage("testing"){
